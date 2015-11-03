@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Truth Inc.</title>
+        <meta name="description" content="Truth Inc.">
+        <meta name="author" content="Alexandre Jolly">
+
+        <link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAAlwSFlzAAALEwAACxMBAJqcGAAAActpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IlhNUCBDb3JlIDUuNC4wIj4KICAgPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICAgICAgPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIKICAgICAgICAgICAgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIgogICAgICAgICAgICB4bWxuczp0aWZmPSJodHRwOi8vbnMuYWRvYmUuY29tL3RpZmYvMS4wLyI+CiAgICAgICAgIDx4bXA6Q3JlYXRvclRvb2w+QWRvYmUgSW1hZ2VSZWFkeTwveG1wOkNyZWF0b3JUb29sPgogICAgICAgICA8dGlmZjpPcmllbnRhdGlvbj4xPC90aWZmOk9yaWVudGF0aW9uPgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAgPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KKS7NPQAAAUNJREFUOBHdkjFLA0EQhe9u9wxnE5AggkQUUTsRwdL8BRXrhLRp/A9appLUsRHExsrGxsLawjRaqAgRwZSBWAied+v3khyEYKGlDnx5O7Nv9uay53l/PszYGygX6VC17YMdqvJvI6AqfhLy6dC+f/SJLgzDDd/394MgqIF1zj1hLBhjtiCfpmmP/B0UbiCDX5ku4Y3GB/QDTtnKwxy1R+hQO0YPqE3xsDU00hirbNyiOvkKmtDFeAg1jAWmakGO+hlTNPBfJElyQj5tMMyyOKdwREOZ9T3mHcZXwyu6Qr7HOoIlPIvU5jlonbxrWHTgWQY29Y4zNJTQIhrBLmtNNwl3NG8yQZWeF/KJ7N/Uq3yCZ60tYVrmsBu0Atcc0qZhG+pMvBDHcSvzq2c0dN+/Ck0wHv37pZhNp+vSh6Vca2kC/yW+AK8qapY2MYsrAAAAAElFTkSuQmCC" />
+
+        <link rel="stylesheet" type="text/css" href="style.css" />
+
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script>
+            $(function () {
+                ["#shirt1", "#shirt2", "#shirt3"]
+                    .forEach(function(value, i, a) {
+                        $(value).hide().fadeIn(750);
+                    });
+            });
+        </script>
+    </head>
+    <body style="background-color:#FEFEFE;">
+        <div class="" style="display:table;margin:0 auto;">
+            <div style="display:table-cell;vertical-align:middle;">
+                <div style="margin-left:auto;margin-right:auto;">
+                    <img class="shirt_image" id="shirt1" src="img/shirt1.jpg"/>
+                </div>
+                <div style="margin-left:auto;margin-right:auto;">
+                    <img class="shirt_image" id="shirt2" src="img/shirt2.jpg"/>
+                </div>
+                <div style="margin-left:auto;margin-right:auto;">
+                    <img class="shirt_image" id="shirt3" src="img/shirt3.jpg"/>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
